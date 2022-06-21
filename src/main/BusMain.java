@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class BusMain {
    public static void main(String[] args) {
-	   Scanner inp = new Scanner(System.in);
+	   Scanner inp1 = new Scanner(System.in);
 	   int i;
 	   
 	   // Creating Bus ArrayList to store the bus details [bus objects]
@@ -24,7 +24,7 @@ public class BusMain {
 		   
 		   System.out.println("Enter 1 for booking or 2 to exit application");
 		   
-		   userOption = inp.nextInt();
+		   userOption = inp1.nextInt();
 		   
 		   if(userOption == 1) {
 		         Booking bookingObj = new Booking();
